@@ -7,11 +7,11 @@ body {
 }
 
 ul {
-    text-align: center;
+  text-align: center;
 }
 #content {
-    overflow: auto;
-    padding: 30px 50px;
+  overflow: auto;
+  padding: 30px 50px;
 }
 
 .column1, .column2, .column3 {
@@ -48,26 +48,40 @@ li {
 }
 
 .logo{
-    font-family: 'Aclonica', sans-serif;
-    font-size: 3em;
+  font-family: 'Aclonica', sans-serif;
+  font-size: 3em;
 }
 
 .nav{
-    padding: 0;
+  padding: 0;
 }
 
 .nav a{
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1.5em;
-    padding: 10px 25px;
-    font-weight: 800;
-    color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  padding: 10px 25px;
+  font-weight: 800;
+  color: black;
 }
 
 .products,
 .contact{
-    opacity: 50%;
+  opacity: 50%;
+}
+
+.top-icon{
+  position: relative;
+}
+
+.user::after{
+  top: 18px;
+  right: 0px;
+  content: "";
+  display: block;
+  position: absolute;
+  border: 1px solid black;
+  height: 20px;
 }
 
 .top-icon li{
@@ -75,21 +89,85 @@ li {
 }
 
 .control-icon{
-    cursor: pointer;
-    padding: 10px 20px;
+  position: relative;
+  cursor: pointer;
+  padding: 10px 20px;
 }
+
 
 .menu{
   margin-right: -20px;
 }
 
 .slider{
-    height: 512px;   
-    background-color: #c1dcdc;
-    border-radius: 10px;
+  display: flex;
+  height: 494px;   
+  background-color: #c1dcdc;
+  border-radius: 10px;
+  justify-content: space-between;
 }
 
 .selling{
-    background-color: blue;
+  height: 400px;
+  background-color: #888;
 }
 
+.slider-img{
+  margin-right: 80px;
+}
+
+.content-title{
+  margin-left: 60px;
+  font-size: 4em;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.quantity{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+  font-size: 1.5em;
+  line-height: 0.1;
+}
+
+.plant{
+  position: relative;
+}
+
+.plant::after{
+  top: 18px;
+  right: -100px;
+  content: "";
+  display: block;
+  position: absolute;
+  border: 1px solid black;
+  height: 50px
+}
+
+.slider-looking-for{
+  position: relative;
+  margin: 50px 60px;
+  border-radius: 10px;
+  width: 550px;
+  height: 60px;
+  font-size: 1.2em;
+  padding-left: 20px;
+}
+
+.looking-for-search{
+  border-radius: 10px;
+  position: absolute;
+  text-align: center;
+  line-height: 48px;
+  width: 48px;
+  height: 48px;
+  background-color: #c1dcdc;
+  margin-top: 59px;
+  margin-left: -130px
+}
+
+.looking-for-search{
+  line-height: 55px;
+}
