@@ -219,8 +219,43 @@ li {
 
 /* About */
 
-.about{
-  background-color: #999;
+.about {
+  margin-top: 48px;
+  text-align: center;
+}
+
+.about__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+}
+
+.about__header h1 {
+  font-size: 3em;
+}
+
+.about__header p {
+  color: #6e6e6e;
+  font-size: 1.5em;
+}
+
+
+.about__item-img {
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 50%;
+}
+
+
+.about__item-header {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+
+.about__item p {
+  opacity: 60%; 
+  font-size: 1.5em;
 }
 
 
