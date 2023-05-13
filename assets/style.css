@@ -109,11 +109,6 @@ li {
   justify-content: space-between;
 }
 
-.selling{
-  height: 400px;
-  background-color: #888;
-}
-
 .slider-img{
   margin-right: 80px;
 }
@@ -140,7 +135,7 @@ li {
 
 .plant::after{
   top: 18px;
-  right: -100px;
+  right: -150px;
   content: "";
   display: block;
   position: absolute;
@@ -173,3 +168,30 @@ li {
 .looking-for-search{
   line-height: 55px;
 }
+
+/* Selling */
+.selling{
+  margin-top: 50px;
+  display: flex; 
+  height: 800px;
+  background-color: #999;
+  border-radius: 10px;
+}
+
+
+.selling-content{
+  padding:40px 60px;
+  width: 400px;
+}
+
+.selling-btn{
+  background-color: #c1dcdc;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.selling-product{
+  display: flex;
+}
+
