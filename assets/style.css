@@ -218,7 +218,6 @@ li {
 }
 
 /* About */
-
 .about {
   margin-top: 48px;
   text-align: center;
@@ -282,21 +281,16 @@ li {
   position: relative;
   padding: 448px 0;
   margin: 80px 0;
+  border-radius: 10px;
 }
 .category-item {
   position: absolute;
 }
 
 .category-item p{
-  font-weight: bold;
-  font-size: 20px;
+  font-size: 1.5em;
   font-weight: 700;
-  line-height: 40px;
   text-align: center;
-}
-
-.category-item img {
-  margin-left: 0.5rem;
 }
 
 .category-item:nth-child(1) {
@@ -333,11 +327,71 @@ li {
   border-radius: 8px;
 }
 
+/* Rate */
+
+.rate-content {
+  display: flex;
+  margin-top: 40px;
+  gap: 90px;
+  overflow: auto;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+
+.rate-content::-webkit-scrollbar { 
+  width: 0 !important;
+  display: none; 
+}
+
+.rate-item {
+  /* min-width: 1000px; */
+  background: #c1dcdc;
+  border-radius: 10px;
+  padding: 10px 10px 0 10px;
+}
+.rate-item p {
+  font-size: 1.25em;
+}
+
+.rate-buy {
+  display: flex;
+}
+
+.rate-info-buyer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rate-info-buyer h1 {
+  font-size: 2em;
+}
+
+.rate-buyer {
+  width: 100%;
+  padding-top: 60px;
+}
+.rate-buyer p {
+  font-size: 1.5em;
+}
+
+.rate-item-evaluate {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.rate-item-evaluate h1 {
+  font-size: 2em;
+}
+.rate-item-evaluate img {
+  width: 40px;
+  height: 30px;
+} 
+
 
 /* footer */
 .footer{
   background-color: #c1dcdc;
-  margin-top: 20px;
+  margin-top: 80px;
 }
 
 .footer-content{
